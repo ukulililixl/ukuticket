@@ -1,9 +1,7 @@
 from selenium import webdriver
 from splinter.browser import Browser
 from time import sleep
-import traceback
 import sys
-import lxml.html
 
 # username and passwd
 username=sys.argv[1]
